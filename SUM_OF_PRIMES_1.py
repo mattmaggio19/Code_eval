@@ -1,6 +1,6 @@
-## find the sum of the first n primes
+## find the sum of the first 1000 primes
 
-#import time changed to test git
+import sys
 
 def isprime(arg): #is a number prime?
     if arg >= 3:
@@ -26,4 +26,4 @@ def sum_primes():
     return Sum
 
 Sum = sum_primes()
-print(Sum)
+sys.stdout.write(str(Sum))
