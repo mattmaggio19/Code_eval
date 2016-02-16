@@ -1,6 +1,6 @@
 ## find the sum of the first n primes
 
-import time
+#import time changed to test git
 
 def isprime(arg): #is a number prime?
     if arg >= 3:
