@@ -26,4 +26,8 @@ def sum_primes():
     return Sum
 
 Sum = sum_primes()
+<<<<<<< HEAD
 sys.stdout.write(str(Sum))
+=======
+sys.stdout.write(str(Sum))
+>>>>>>> 0a34ac4579bcdbddb2c5619982ad5472765183f7
