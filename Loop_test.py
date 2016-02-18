@@ -1,4 +1,7 @@
 
+items = [5, 6, 7, 8, 9]
 
-for ii in range(10):
-    print(ii)
+
+for idx, item in enumerate(items):
+    print(idx)
+    print(item)

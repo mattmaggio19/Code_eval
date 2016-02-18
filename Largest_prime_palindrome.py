@@ -16,7 +16,7 @@ def isprime(arg): #is a number prime?
 def ispalindrome(arg): #is a number a palindrome?
     Forward = str(arg)
     count = 0
-    Reverse = [];
+    Reverse = []
     for ii in range(len(Forward),0,-1):
         Reverse.append(Forward[ii-1])
         count += 1
